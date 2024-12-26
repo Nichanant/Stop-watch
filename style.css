@@ -32,7 +32,7 @@ body {
 }
 
 #timer {
-    font-size: 5rem;
+    font-size: 80px;
     text-shadow: var(--textBorder), var(--textGlow), var(--textGlow);
     color: var(--textColor);
 }
@@ -48,19 +48,18 @@ button {
     background-color: var(--glowColor);
     color: var(--textColor);
     border: none;
-    padding: 12px 30px;
-    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
     border-radius: 20px;
-    font-weight: 800;
     letter-spacing: 2px;
     cursor: pointer;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 button:hover {
     background-color: var(--textColor);
     color: var(--glowColor);
-    box-shadow: var(--textShadow);
+    /* box-shadow: var(--textShadow); */
     transform: scale(1.05);
 }
 
